@@ -13,7 +13,7 @@ export const TradingInfo = (props: TradingInfoProps) => {
 
   return (
     <div className={_className}>
-      <TradingInfoItem theme="green" label="Balance" value="0 USD" />
+      <TradingInfoItem theme="green" label="Balance" value="635 USD" />
 
       <TradingInfoItem label="Credit" value="635 USD" />
 
