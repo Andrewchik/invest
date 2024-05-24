@@ -1,0 +1,37 @@
+.container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgb(255, 249, 230);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0px 14px;
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  max-width: 240px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.description {
+  max-width: 415px;
+
+  font-size: 16px;
+  line-height: 150%;
+}

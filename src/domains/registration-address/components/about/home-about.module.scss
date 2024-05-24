@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+}
+
+.container .content {
+  max-width: 530px;
+}
+
+.image {
+  width: 438px;
+  height: 500px;
+}
+
+.subtitle {
+  margin-top: 24px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+}

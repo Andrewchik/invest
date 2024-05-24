@@ -1,0 +1,100 @@
+// Link
+
+.link {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0);
+
+  transition: all var(--transition);
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+.link-underline {
+  text-decoration: underline;
+
+  transition: all var(--transition);
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+// Section
+
+.section-offset {
+  margin-top: 140px;
+}
+
+.common-section {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.common-section-big {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.common-section-full {
+  margin: 0px 40px;
+}
+
+.common-section-small {
+  max-width: 714px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.section-second-image {
+  flex: 1;
+  flex-shrink: 1;
+  object-fit: contain;
+}
+
+@media (max-width: $breakpoint-extra-large-max) {
+  .common-section-big,
+  .common-section {
+    // max-width: 1140px;
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: $breakpoint-large-max) {
+  .common-section-big,
+  .common-section {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: $breakpoint-medium-max) {
+  .common-section-big,
+  .common-section {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .common-section-big,
+  .common-section {
+    max-width: 540px;
+  }
+
+  .section-offset {
+    margin-top: 32px;
+  }
+
+  .common-section-full {
+    margin: 0px 16px;
+  }
+}
+
+@media (max-width: $breakpoint-extra-small-max) {
+  .common-section-big,
+  .common-section {
+    max-width: calc(100vw - 32px);
+  }
+}

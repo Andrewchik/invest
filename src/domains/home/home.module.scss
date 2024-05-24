@@ -1,0 +1,15 @@
+.container .advantages {
+  margin-top: 60px;
+}
+
+.container .section {
+  @extend .section-offset;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    .advantages {
+      margin-top: 24px;
+    }
+  }
+}

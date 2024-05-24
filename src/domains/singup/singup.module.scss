@@ -1,0 +1,17 @@
+.content {
+  margin-bottom: 16px;
+}
+
+.checkbox {
+  margin-bottom: 32px;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .content {
+    margin-bottom: 12px;
+  }
+
+  .checkbox {
+    margin-bottom: 20px;
+  }
+}

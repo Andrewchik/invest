@@ -1,0 +1,17 @@
+.title {
+  margin-bottom: 24px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.description {
+  margin-bottom: 40px;
+
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}

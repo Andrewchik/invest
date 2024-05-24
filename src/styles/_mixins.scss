@@ -1,0 +1,20 @@
+@mixin link() {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0);
+
+  transition: all var(--transition);
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+@mixin link-underline() {
+  text-decoration: underline;
+
+  transition: all var(--transition);
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

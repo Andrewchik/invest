@@ -1,0 +1,48 @@
+.container {
+  @extend .common-section;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+
+  & > *:first-child {
+    flex: 1;
+  }
+
+  & > *:last-child {
+    flex: 1.42;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}
+
+.image {
+  flex: 1;
+}
+
+.banner {
+  flex: 1;
+}

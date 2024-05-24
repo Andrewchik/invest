@@ -1,0 +1,15 @@
+.container {
+  margin-top: 140px;
+  @extend .common-section-big;
+
+  tr:first-child {
+    td:not(:first-child) {
+      font-weight: 700;
+      color: rgb(var(--foreground-second-rgb));
+    }
+  }
+
+  td:first-child {
+    font-weight: 700;
+  }
+}

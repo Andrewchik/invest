@@ -1,0 +1,20 @@
+.container {
+  margin-top: 32px;
+  margin-right: auto;
+
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}
+
+.link {
+  @include link-underline();
+
+  color: rgb(var(--foreground-rgb));
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    margin-top: 20px;
+  }
+}

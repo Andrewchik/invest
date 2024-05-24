@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  gap: 20px;
+
+  overflow-x: auto;
+}
+
+.item {
+  flex: 1;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgb(var(--foreground-rgb));
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: all var(--transition);
+
+  &:hover {
+    transform: scale(0.95);
+  }
+
+  &:where([data-active="true"]) {
+    background-color: rgb(var(--foreground-rgb));
+    color: rgb(var(--foreground-invert-rgb));
+  }
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    margin: 0px -16px;
+    padding: 0px 16px;
+    width: 100vw;
+  }
+}

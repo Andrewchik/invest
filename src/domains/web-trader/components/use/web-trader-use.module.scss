@@ -1,0 +1,37 @@
+.container {
+  align-items: center;
+}
+
+.image {
+  @extend .section-second-image;
+
+  max-width: 258px;
+  max-height: 518px;
+  margin-right: 27px;
+}
+
+@media (min-width: $breakpoint-medium-min) {
+  .container .content {
+    max-width: 621px;
+    margin-bottom: 26px;
+  }
+
+  .container .info {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: $breakpoint-medium-max) {
+  .image {
+    max-width: calc(258px * 0.7);
+    max-height: calc(518px * 0.7);
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .image {
+    max-width: 111px;
+    max-height: 224px;
+  }
+}

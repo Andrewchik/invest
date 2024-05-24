@@ -1,0 +1,23 @@
+.content {
+  margin-bottom: 16px;
+}
+
+.forgot {
+  @include link();
+
+  margin-bottom: 32px;
+  margin-right: auto;
+
+  font-size: 14px;
+  line-height: 150%;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .content {
+    margin-bottom: 12px;
+  }
+
+  .forgot {
+    margin-bottom: 20px;
+  }
+}

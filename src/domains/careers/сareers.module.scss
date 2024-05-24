@@ -1,0 +1,11 @@
+.header__title {
+  max-width: 630px;
+}
+
+.container .section {
+  @extend .section-offset;
+}
+
+.container .photos {
+  margin-top: 50px;
+}

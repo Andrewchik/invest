@@ -1,0 +1,48 @@
+.container {
+  border-bottom: 1px solid #d9d9d9;
+
+  :global(.ReactCollapse--content) {
+    padding-bottom: 32px;
+  }
+
+  &:where([data-active="true"]) {
+    .header {
+      padding-bottom: 16px;
+    }
+
+    .arrow {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 24px 0px;
+
+  cursor: pointer;
+
+  transition: padding 300ms;
+}
+
+.arrow {
+  margin-left: 16px;
+
+  transition: transform 300ms;
+}
+
+.question {
+  flex: 1;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+.answer {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}

@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .content {
+    flex-direction: column;
+  }
+
+  .item {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

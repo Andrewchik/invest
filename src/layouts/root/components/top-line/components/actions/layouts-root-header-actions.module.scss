@@ -1,0 +1,14 @@
+.container {
+  // min-height: 40px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+
+  svg {
+    margin-right: 8px;
+  }
+}

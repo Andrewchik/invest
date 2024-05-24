@@ -1,0 +1,23 @@
+.container {
+  @extend .common-section;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image {
+  &:nth-child(1),
+  &:nth-child(5) {
+    width: 255px;
+  }
+
+  &:nth-child(2),
+  &:nth-child(4) {
+    flex: 1;
+  }
+
+  &:nth-child(3) {
+    width: 347px;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  align-items: center;
+}
+
+.image {
+  @extend .section-second-image;
+
+  max-width: 312px;
+  max-height: 628px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 32px;
+  margin-top: 50px;
+}
+
+@media (min-width: $breakpoint-medium-min) {
+  .container .content {
+    max-width: 620px;
+    margin-bottom: 26px;
+  }
+
+  .info {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: $breakpoint-medium-max) {
+  .image {
+    max-width: calc(312px * 0.7);
+    max-height: calc(628px * 0.7);
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .image {
+    max-width: 111px;
+    max-height: 224px;
+  }
+}

@@ -1,0 +1,16 @@
+.description {
+  max-width: 697px;
+  margin-bottom: 32px;
+}
+
+.action {
+  max-width: 220px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .description {
+    margin-bottom: 20px;
+  }
+}

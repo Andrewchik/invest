@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  transition: all var(--transition);
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+}
+
+.select {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  appearance: none;
+
+  background-color: transparent;
+  color: transparent;
+
+  cursor: pointer;
+}

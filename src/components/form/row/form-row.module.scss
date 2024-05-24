@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+
+  &:not(:last-child) {
+    & > * {
+      margin-bottom: 32px;
+
+      @media (max-width: $breakpoint-small-max) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  & > * {
+    flex-grow: 1;
+    width: calc((100% - 20px) / 2);
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &:where([data-full="true"]) > * {
+    width: 100%;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-right: 0px;
+      }
+    }
+  }
+}

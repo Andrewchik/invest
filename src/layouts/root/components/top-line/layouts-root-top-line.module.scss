@@ -1,0 +1,56 @@
+.container {
+  color: rgb(var(--foreground-invert-rgb));
+
+  background-color: rgb(var(--background-black-rgb));
+}
+
+.section {
+  @extend .common-section-big;
+
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.item {
+  transition: var(--transition);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.action {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+
+  svg {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    z-index: 2;
+  }
+}

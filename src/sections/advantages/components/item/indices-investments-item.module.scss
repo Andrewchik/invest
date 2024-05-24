@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  margin-right: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.description {
+  margin-top: 16px;
+
+  font-size: 14px;
+  line-height: 150%;
+}
+
+@media (min-width: $breakpoint-small-min) and (max-width: $breakpoint-medium-max) {
+  .container {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    margin-top: 4px;
+
+    font-size: 14px;
+  }
+
+  .icon {
+    margin-right: 12px;
+  }
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Disallow: /
+
+# Host
+Host: https://global-investment-pi.vercel.app
+
+# Sitemaps
+Sitemap: https://global-investment-pi.vercel.app/sitemap.xml

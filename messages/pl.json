@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "title": "Global Investment",
+    "description": "Global Investment"
+  },
+  "root": {
+    "agree": "Zgadzam się z <privacyPolicy>Polityką Prywatności</privacyPolicy> i <termsConditions>Regulaminem</termsConditions>",
+    "send": "Wyślij",
+    "load_more": "Załaduj więcej",
+    "form": {
+        "name": "Imię i nazwisko",
+        "email": "Email",
+        "phone": "Telefon",
+        "subject": "Temat",
+        "message": "Wiadomość",
+        "account": "Numer konta lub Email",
+        "password": "Hasło",
+        "confirm_password": "Potwierdź hasło",
+        "country": "Kraj"
+    },
+    "pages": {
+        "about_us": "O nas",
+        "careers": "Kariera",
+        "home": "Strona główna",
+        "news": "Aktualności",
+        "contacts": "Kontakt",
+        "privacy_policy": "Polityka Prywatności",
+        "terms_conditions": "Regulamin"
+    }
+},
+  "cards": {
+    "news": {
+      "trends": "Trendy",
+      "to_read": "{minutes, plural, =1 {jedna minuta} other {# minut}} do przeczytania"
+    }
+  },
+  "layouts": {
+    "root": {
+      "topline": {
+        "login": "Zaloguj się",
+        "loguot": "Wyloguj się"
+      },
+      "header": {
+        "menu": {
+          "trading": "Handel",
+          "platforms": "Platformy"
+        },
+        "actions": {
+          "sign_up": "Zarejestruj się",
+          "open_account": "Otwórz konto"
+        }
+      },
+      "footer": {
+        "info": {
+          "address": {
+            "label": "Adres",
+            "value": "Cannon Bridge House 25\nDowgate Hill London EC4R 2YA"
+          },
+          "email": {
+            "label": "E-mail"
+          }
+        },
+        "menu": {
+          "trading": {
+            "label": "Handel",
+            "items": {
+              "crypto": "Kryptowaluty",
+              "forex": "Forex",
+              "indices": "Indeksy",
+              "shares": "Akcje",
+              "web_trader": "Handel przez sieć"
+            }
+          },
+          "links": {
+            "label": "Przydatne Linki",
+            "items": {
+              "terms_conditions": "Warunki korzystania",
+              "privacy_policy": "Polityka prywatności",
+              "risk_disclosure": "Informacja o ryzyku",
+              "aml_kyc": "AML i KYC",
+              "order_execution_policy": "Polityka realizacji zleceń",
+              "client_categorization": "Kategoryzacja klientów"
+            }
+          },
+          "company": {
+            "label": "Firma",
+            "items": {
+              "about_us": "O nas",
+              "careers": "Kariera",
+              "news": "Aktualności",
+              "contacts": "Kontakty",
+              "account_types": "Rodzaje kont",
+              "registration_address": "Adres rejestracyjny firmy"
+            }
+          }
+        },
+        "bottom-line": {
+          "copyright": "Prawa autorskie, Global Investment"
+        }
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "action": "Zacznij handlować teraz"
+    },
+    "instruments": {
+      "title": "Instrumenty rynkowe",
+      "description": "Global Investment to Twój wiarygodny partner w świecie handlu online. Z 15-letnim doświadczeniem i innowacyjnym podejściem zapewniamy wysokiej jakości dostęp do rynków finansowych poprzez nasz zaawansowany model realizacji zleceń. Odkryj świat handlu online za pomocą kontraktów różnic kursowych (CFD) na tysiącach instrumentów w 6 klasach aktywów. Z nami będziesz miał dostęp do szerokiego spektrum instrumentów finansowych, co pozwoli Ci skutecznie realizować strategie inwestycyjne i osiągać cele finansowe.",
+      "menu": {
+        "forex": "Forex",
+        "crypto": "Kryptowaluty",
+        "indices": "Indeksy",
+        "shares": "Akcje"
+      }
+    },
+    "trading-table": {
+      "symbol": "Symbol",
+      "digits": "Cyfry",
+      "contract_size": "Wielkość Kontraktu",
+      "spread": "Średni Spread (Pips)",
+      "swap_long": "SWAP Długi",
+      "swap_short": "SWAP Krótki",
+      "trading_hours": "Godziny Handlu"
+    }
+  },
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "Strona główna | Global Investment"
+      },
+      "header": {
+        "title": "Handluj Akcjami i Opcjami w UK\n24/7",
+        "subtitle": "Zacznij Handlować"
+      },
+      "advantages": {
+        "funding_fee": "Opłata za finansowanie",
+        "support": "Wsparcie",
+        "micro_lot_trading": "Handel mikro lotami",
+        "fast_order_execution": "Szybka realizacja zleceń"
+      },
+      "platforms": {
+        "title": "Potężne platformy handlowe dla Twojego sukcesu",
+        "description": "Odkryj potężne platformy handlowe, aby zwiększyć swój sukces. Niezależnie od tego, czy jesteś początkującym czy doświadczonym traderem, te narzędzia oferują intuicyjny interfejs, zaawansowane wykresy i bieżące informacje. Dostosuj swoje doświadczenie i korzystaj z możliwości z pewnością siebie. Rozpocznij swoją podróż handlową na wyższy poziom już dziś!",
+        "action": "Czytaj więcej"
+      },
+      "opportunities": {
+        "title": "Odkryj świat możliwości",
+        "description": "Inwestuj globalnie w akcje, opcje, kontrakty terminowe, waluty, obligacje i fundusze z jednej zintegrowanej platformy. Wpłać środki na swoje konto w wielu walutach i handluj aktywami denominowanymi w różnych walutach. Dostęp do danych rynkowych przez 24 godziny na dobę i siedem dni w tygodniu.",
+        "action": "Globalne rynki"
+      },
+      "experience": {
+        "title": "Profesjonalne doświadczenie w cenach",
+        "description": "Uzyskaj wiedzę i umiejętności, których potrzebujesz do opracowania i wdrożenia skutecznej strategii cenowej.",
+        "items": [
+          "Niskie prowizje od 0 do 4 dolarów amerykańskich bez dodatkowych spreadów, opłat za transakcje, opłat za platformę ani minimalnych wymiarów konta.",
+          "Global Investment: zaawansowane technologie handlowe zapewniające optymalną realizację transakcji i wartość ceny, minimalizujące wpływ na rynek.",
+          "Marże są o 49% niższe od średnich branżowych.",
+          "Otrzymuj wysokie stopy procentowe do 4,83% od razu po zaksięgowaniu środków.",
+          "Zarabiaj dodatkowe dochody z akcji, których udzielasz w pożyczkę."
+        ]
+      },
+      "unlocking": {
+        "title": "Odblokowanie potencjału profesjonalnego handlu z Globalną Inwestycją",
+        "description": "Odblokuj swój pełny potencjał handlowy z Globalną Inwestycją. Skorzystaj z globalnego dostępu, najnowocześniejszych technologii i niezrównanych środków bezpieczeństwa. Dzięki niskim prowizjom, wysokim stopom procentowym i zintegrowanej platformie obsługującej różne klasy aktywów, Global Investment umożliwia Ci handel z pewnością i efektywnością.",
+        "items": {
+          "professional_pricing": {
+            "title": "Profesjonalne ceny",
+            "description": "Prowizje począwszy od $04, niskie stopy marżowe, wysokie odsetki, oraz Zwiększenie Wydajności Rentowności Akcji."
+          },
+          "global_access": {
+            "title": "Globalny dostęp",
+            "description": "Inwestuj globalnie w akcje, opcje, kontrakty terminowe, waluty, obligacje i fundusze z jednej zintegrowanej platformy."
+          },
+          "premier_technology": {
+            "title": "Premierowe technologie",
+            "description": "Potężna gama technologii Globalnej Inwestycji pomaga Ci zoptymalizować szybkość i efektywność handlu oraz wykonać zaawansowaną analizę portfela."
+          },
+          "strength_security": {
+            "title": "Siła i bezpieczeństwo",
+            "description": "$14,1 miliarda kapitału własnego, zautomatyzowane kontrolki ryzyka, wszystkie aktywa oznaczone na bieżąco, ocena „A- Perspektywa Stabilna” przez Standard & Poor's."
+          }
+        }
+      },
+      "process": {
+        "title": "Zoptymalizowany Proces Handlowy",
+        "description": "Doświadcz bezproblemowego handlu dzięki naszemu zoptymalizowanemu procesowi. Od szybkiej aplikacji po bezproblemowe finansowanie konta, uproszczylismy każdy krok. Dołącz do nas i podnieś swoją podróż inwestycyjną już dziś.",
+        "items": {
+          "application": {
+            "title": "Wypełnij Aplikację",
+            "description": "Zajmuje to tylko kilka minut."
+          },
+          "account": {
+            "title": "Wpłać Środki na Konto",
+            "description": "Podłącz swoje konto bankowe lub przelej środki."
+          },
+          "get_started": {
+            "title": "Zacznij Handlować",
+            "description": "Podnieś swoje inwestowanie na kolejny poziom."
+          }
+        }
+      },
+      "subscribe": {
+        "title": "Otrzymuj najnowsze aktualizacje",
+        "description": "Bądź na bieżąco z najnowszymi wiadomościami i wydarzeniami.",
+        "form": {
+          "email": "Wprowadź swój adres e-mail",
+          "action": "Subskrybuj",
+          "policy": "Nigdy nie przekażemy Twoich danych osobowych osobom trzecim. Aby uzyskać więcej informacji, zapoznaj się z naszą Polityką Prywatności."
+        }
+      }
+    },
+    "forex": {
+      "metadata": {
+        "title": "Forex | Global Investment"
+      },
+      "header": {
+        "title": "Skorzystaj z\nRynku o Wartości $5 Bilionów Dolarów Dziennie",
+        "subtitle": "HANDEL WALUTAMI"
+      },
+      "embark": {
+        "title": "Rozpocznij swoją podróż do finansowego wzrostu z Globalną Inwestycją",
+        "description": "Zanurz się w dynamicznym świecie handlu walutami Forex i skorzystaj z możliwości zarabiania na globalnych ruchach walutowych. Dzięki naszej kompleksowej platformie uzyskasz dostęp do licznych narzędzi i zasobów handlowych, co pozwoli Ci podejmować świadome decyzje i maksymalizować potencjalne zyski. Bez względu na to, czy jesteś doświadczonym traderem czy dopiero zaczynasz, nasza platforma zapewnia wsparcie i pomoc niezbędne do osiągnięcia sukcesu na rynku Forex. Dołącz do nas już dziś i podejmij pierwszy krok w kierunku niezależności finansowej."
+      },
+      "unlocking": {
+        "title": "Odblokuj potencjał handlu na rynku Forex",
+        "description": "Handluj pewnie i dokładnie na rynku Forex. Nasza platforma zapewnia Ci narzędzia i wskazówki niezbędne do wykorzystania okazji i maksymalizacji zysków na dynamicznym rynku walutowym. Zacznij handlować już dziś i odblokuj swój potencjał wzrostu finansowego."
+      },
+      "advantages": {
+        "flexibility": {
+          "title": "Elastyczność Handlu",
+          "description": "Nasza platforma pozwala na handel na rynku Forex z dowolnego miejsca na świecie, wystarczy dostęp do Internetu."
+        },
+        "commissions": {
+          "title": "Niskie Prowizje",
+          "description": "Oferujemy konkurencyjne warunki handlowe z niskimi prowizjami, pozwalając Ci maksymalizować zyski."
+        },
+        "protection": {
+          "title": "Ochrona i Bezpieczeństwo",
+          "description": "Zabezpieczamy wysoki poziom bezpieczeństwa Twojego kapitału, dzięki czemu możesz handlować na rynku Forex z pewnością siebie."
+        }
+      },
+      "trade": {
+        "title": "Handluj na rynku Forex",
+        "subtitle": "Handluj największym rynkiem z najbardziej zmiennymi parami walutowymi. Wybierz Globalną Inwestycję, aby uzyskać dostęp do największego rynku na świecie, Forex na głównych, drugorzędnych i egzotycznych parach walutowych."
+      }
+    },
+    "crypto": {
+      "metadata": {
+        "title": "Handel Kryptowalutami | Global Investment"
+      },
+      "header": {
+        "title": "Przyszłość Inwestycji Jest\nTu i Teraz",
+        "subtitle": "Handel kryptowalutami"
+      },
+      "empower": {
+        "title": "Wzmocnij Swoje Finanse: Proste Narzędzie do Handlu Kryptowalutami",
+        "description": "Wyrusz w podróż ku finansowej niezależności dzięki naszej uproszczonej platformie do handlu kryptowalutami. Rozumiemy, że zagłębianie się w świat kryptowalut może wydawać się przytłaczające, dlatego zoptymalizowaliśmy proces, aby był dostępny dla każdego.\n\nNaszy intuicyjny interfejs prowadzi Cię przez każdy etap podróży handlowej, od zakładania konta po wykonanie pierwszej transakcji. Za pomocą kilku kliknięć możesz kupować, sprzedawać i wymieniać szeroki zakres kryptowalut, wszystko wygodnie z domu."
+      },
+      "gateway": {
+        "title": "Twoja otwarta ścieżka ku ewolucji finansowej",
+        "description": "Wejdź w przyszłość finansów dzięki naszej kompleksowej platformie do handlu kryptowalutami. Bez względu na to, czy jesteś doświadczonym traderem czy nowicjuszem w świecie cyfrowych aktywów, nasza platforma oferuje narzędzia, zasoby i wsparcie, których potrzebujesz, aby poruszać się po dynamicznym świecie kryptowalut z pewnością siebie.\n\nOd Bitcoina do Ethereum i dalej, odkrywaj różnorodność kryptowalut i projektów opartych na technologii blockchain, z każdym z nich związanym z potencjałem wzrostu i innowacji. Dzięki naszemu intuicyjnemu interfejsowi i zaawansowanym funkcjom handlowym możesz kupować, sprzedawać i wymieniać aktywa kryptograficzne z łatwością, co pozwala Ci wykorzystać okazje i maksymalizować swoje dochody na tym dynamicznym rynku."
+      },
+      "advantages": {
+        "support": {
+          "title": "Wsparcie Klienta",
+          "description": "Nasz oddział wsparcia klienta jest dostępny przez całą dobę, aby pomóc Ci w rozwiązywaniu wszelkich pytań lub problemów technicznych, które możesz napotkać."
+        },
+        "access": {
+          "title": "Dostęp do Rynku 24/7",
+          "description": "Ze względu na to, że rynki kryptowalut działają przez całą dobę, możesz handlować o dowolnej porze i w dowolnym miejscu, co pozwala na większą elastyczność w zarządzaniu swoimi inwestycjami."
+        },
+        "transactions": {
+          "title": "Natychmiastowe Transakcje",
+          "description": "Ciesz się szybkimi i płynnymi transakcjami, z wykonaniem transakcji praktycznie natychmiastowym, co umożliwia szybkie wykorzystanie okazji rynkowych."
+        }
+      },
+      "trade": {
+        "title": "Handel Kryptowalutami",
+        "description": "Dołącz do globalnego rynku kryptowalut wartego miliardów dolarów, który rewolucjonizuje sferę finansową. Handluj najbardziej aktywnymi i popularnymi kryptowalutami, takimi jak Bitcoin, Ethereum i Litecoin, na platformie Global Investment."
+      }
+    },
+    "indices": {
+      "metadata": {
+        "title": "Strona Handlu Indeksami | Global Investment"
+      },
+      "header": {
+        "title": "Największe marki na świecie\nczekają na Twoje odkrycie",
+        "subtitle": "Strona Handlu Indeksami"
+      },
+      "unlock": {
+        "title": "Odblokuj różnorodne możliwości inwestycyjne: Wybierz Handel Indeksami",
+        "description": "Odkryj moc handlu indeksami, gdzie masz dostęp do szerokiego zakresu różnorodnych możliwości inwestycyjnych na jednej wygodnej platformie. Czy chcesz śledzić główne wskaźniki rynkowe, takie jak S&P 500, czy badać międzynarodowe indeksy, nasza platforma zapewnia narzędzia i zasoby, których potrzebujesz, aby podejmować świadome decyzje inwestycyjne. Dzięki handlowi indeksami możesz korzystać z ograniczonego ryzyka i czerpać korzyści z szerszych trendów rynkowych, jednocześnie korzystając z prostoty i wygody handlu za pomocą naszego przyjaznego interfejsu."
+      },
+      "investments": {
+        "title": "Maksymalizuj Swoje Inwestycje: Eksploruj Handel Indeksami",
+        "description": "Rozszerz swój portfel bezproblemowo dzięki handlowi indeksami. Uzyskaj dostęp do głównych benchmarków rynkowych i międzynarodowych indeksów na naszej platformie. Korzystaj z redukcji ryzyka i możliwości wykorzystania trendów rynkowych, aby łatwo osiągać zyski. Dołącz do nas już dziś, aby wzmocnić swoją strategię inwestycyjną.",
+        "items": {
+          "markets": {
+            "title": "Dostęp Do Rynków",
+            "description": "Handluj popularnymi indeksami, takimi jak S&P 500 i Dow Jones Industrial Average."
+          },
+          "exposure": {
+            "title": "Międzynarodowa Ekspozycja",
+            "description": "Eksploruj międzynarodowe rynki dzięki indeksom, takim jak FTSE 100 i Nikkei 225."
+          },
+          "resources": {
+            "title": "Zasoby",
+            "description": "Uzyskaj dostęp do zasobów, aby pogłębić swoje zrozumienie handlu indeksami i dynamiki rynku."
+          },
+          "access": {
+            "title": "Łatwy Dostęp",
+            "description": "Handluj indeksami łatwo na naszej przyjaznej platformie, dostępnej w dowolnym miejscu i czasie."
+          }
+        }
+      },
+      "trade": {
+        "title": "Handel Indeksami",
+        "description": "Handluj opierając się na cenie sumy grupy giełd poprzez każdy indeks. Wybierz Globalną Inwestycję, aby handlować największymi indeksami zawierającymi globalne akcje z regulowanym i bezpiecznym brokerem."
+      }
+    },
+    "shares": {
+      "metadata": {
+        "title": "Strona Akcji | Global Investment"
+      },
+      "header": {
+        "title": "Największe marki na świecie są\ntylko o kliknięcie od Ciebie",
+        "subtitle": "Strona Akcji"
+      },
+      "invest": {
+        "title": "Inwestuj w akcje: Poruszaj się po rynku akcji z pewnością siebie",
+        "description": "Otrzymaj dostęp do świata możliwości inwestycyjnych poprzez handel akcjami. Dzięki naszej platformie możesz inwestować w różne firmy - od uznanych liderów rynku po obiecujące startupy. Wykorzystuj trendy rynkowe, efektywnie zarządzaj ryzykiem i buduj portfel zgodny z Twoimi celami finansowymi. Rozpocznij swoją podróż ku wzrostowi i stabilności finansowej, handlując akcjami z nami już dziś."
+      },
+      "trade_shares": {
+        "title": "Handluj akcjami: Wykorzystaj możliwości inwestycyjne",
+        "description": "Zanurz się w świat handlu akcjami i wykorzystaj możliwości inwestycyjne jak nigdy dotąd. Nasza platforma oferuje bezproblemowy dostęp do szerokiej gamy akcji, pozwalając Ci korzystać z ruchów rynkowych i rozwijać portfel z pewnością siebie. Dołącz do nas już dziś, aby rozpocząć handel akcjami i przejąć kontrolę nad swoją przyszłością finansową."
+      },
+      "advantages": {
+        "flexibility": {
+          "title": "Elastyczność",
+          "description": "Handluj popularnymi indeksami, takimi jak S&P 500 i Dow Jones Industrial Average."
+        },
+        "insights": {
+          "title": "Elastyczność",
+          "description": "Handluj popularnymi indeksami, takimi jak S&P 500 i Dow Jones Industrial Average."
+        },
+        "potential": {
+          "title": "Potencjał Wzrostu",
+          "description": "Inwestuj w firmy z silnym potencjałem wzrostu, oferujące możliwość osiągnięcia znaczących zysków w czasie."
+        }
+      },
+      "trade": {
+        "title": "Handel Akcjami",
+        "description": "Handluj największym rynkiem z najbardziej zmiennymi parami walutowymi. Wybierz Globalną Inwestycję, aby uzyskać dostęp do największego na świecie rynku - Forex z głównymi, drugorzędowymi i egzotycznymi parami walutowymi."
+      }
+    },
+    "web-trader": {
+      "metadata": {
+        "title": "Web Trader | Global Investment"
+      },
+      "header": {
+        "title": "Łatwo eksploruj różne możliwości inwestycyjne z Globalną Inwestycją",
+        "subtitle": "Web Trader"
+      },
+      "access": {
+        "title": "Zdobądź dostęp do globalnych rynków finansowych!",
+        "description": "Korzystanie z handlu internetowego pozwala na handel z dowolnej przeglądarki internetowej lub systemu operacyjnego bez dodatkowego oprogramowania lub problemów z pobieraniem. Handel internetowy oferuje takie samo doświadczenie użytkownika jak każda inna platforma, ale można go uzyskać z dowolnego miejsca z dostępem do Internetu."
+      },
+      "use": {
+        "title": "Dlaczego korzystać z handlu internetowego?",
+        "description": "Handel internetowy upraszcza proces handlowy dzięki swojej bezpiecznej i wygodnej platformie dostępnej z dowolnej przeglądarki internetowej. Skorzystaj z danych w czasie rzeczywistym i wygodnych narzędzi, czy jesteś doświadczonym traderem czy dopiero rozpoczynasz swoją podróż.",
+        "items": {
+          "access": {
+            "title": "Natychmiastowy Dostęp",
+            "description": "Zdobądź natychmiastowy dostęp do rynków finansowych dzięki wygodnej platformie Web Trader."
+          },
+          "trading": {
+            "title": "Handel Jednym Kliknięciem",
+            "description": "Ułatw handel dzięki funkcji jednego kliknięcia na platformie Web Trader, zapewniającej natychmiastowe wykonanie transakcji na rynku."
+          },
+          "secure": {
+            "title": "Bezpieczne, Wiarygodne Dane",
+            "description": "Platforma Web Trader gwarantuje bezpieczne, wiarygodne dane dla pewnych i efektywnych doświadczeń handlowych."
+          },
+          "charts": {
+            "title": "Zaawansowane Wykresy",
+            "description": "Wykorzystaj nasze zaawansowane wykresy do kompleksowej analizy rynku i podejmowania świadomych decyzji."
+          }
+        }
+      },
+      "start": {
+        "title": "Rozpocznij w kilku prostych krokach",
+        "description": "Handluj kontraktami CFD na szeroką gamę instrumentów, w tym popularne pary FX, Kontrakty Futures, Indeksy, Metale, Energia i Akcje oraz odkryj globalne rynki w zasięgu Twoich rąk.",
+        "action": "Zacznij handlować teraz"
+      }
+    },
+    "about-us": {
+      "metadata": {
+        "title": "O Nas | Global Investment"
+      },
+      "header": {
+        "title": "Jesteśmy wiodącą firmą doradczą i inwestycyjną pomagającą klientom na całym świecie maksymalizować szanse wzrostu kapitału",
+        "subtitle": "O Nas",
+        "description": "Nasza firma opiera się na transparentności, zaufaniu i odpowiedzialności wobec naszych klientów. Wierzymy w długoterminowe relacje i zawsze dbamy o to, aby interesy naszych klientów były na pierwszym miejscu."
+      },
+      "statistic": {
+        "users": {
+          "description": "Użytkownicy zaangażowani na całym świecie"
+        },
+        "funding": {
+          "description": "W finansowaniu"
+        },
+        "team-members": {
+          "description": "Talenty w zespole"
+        },
+        "partnerships": {
+          "description": "Strategiczne partnerstwa"
+        },
+        "customer": {
+          "description": "Wskaźnik satysfakcji klienta"
+        },
+        "market-value": {
+          "description": "Przewidywana wartość rynkowa"
+        }
+      },
+      "investments": {
+        "title": "Global Investment:\nKształtowanie Finansowej Przyszłości",
+        "description": "Global Investment prowadzi walkę o finansową emancypację, oferując spersonalizowane rozwiązania dla pewnej przyszłości. Dzięki dedykowanemu zespołowi ponad 100 ekspertów dostosowujemy strategie, aby sprostać indywidualnym potrzebom, zapewniając stabilne zwroty i długoterminowe dobrobyt.\n\nNasze transparentne podejście i udokumentowany dorobek zaufania zdobyły nam zaufanie na całym świecie. Zarządzamy różnorodnymi portfelami od jednostek do instytucji na całych kontynentach, zapewniając dostęp do szerokiej gamy możliwości inwestycyjnych."
+      },
+      "leading": {
+        "title": "Jesteśmy wiodącą",
+        "description": "Nasza firma opiera się na transparentności, zaufaniu i odpowiedzialności wobec naszych klientów. Wierzymy w długoterminowe relacje i zawsze dbamy o to, aby interesy naszych klientów były na pierwszym miejscu.",
+        "items": {
+          "expertise": {
+            "title": "Ekspertyza",
+            "description": "Nasz zespół składa się z doświadczonych profesjonalistów z różnych sektorów finansów, gotowych do udzielenia profesjonalnej porady."
+          },
+          "transparency": {
+            "title": "Transparentność",
+            "description": "Dążymy do utrzymania otwartych i transparentnych relacji z naszymi klientami, dostarczając im informacji na temat każdego etapu inwestycji."
+          }
+        }
+      },
+      "team": {
+        "title": "Poznaj Nasz Zespół w Globalnej Inwestycji",
+        "description": "Nasz sukces wynika z oddania i doświadczenia naszego zespołu. Pozwól mi przedstawić Ci utalentowanych ludzi naszej firmy."
+      }
+    },
+    "careers": {
+      "metadata": {
+        "title": "Kariera | Global Investment"
+      },
+      "header": {
+        "title": "Odkryj satysfakcjonujące możliwości kariery z nami",
+        "subtitle": "Kariera"
+      },
+      "innovators": {
+        "title": "Poszukiwani Innowatorzy",
+        "description": "Szukamy ludzi, którzy dostrzegają szansę tam, gdzie inni widzą status quo. W Interactive Brokers, każdy z naszych wyjątkowych i oddanych pracowników odgrywa rolę w utrzymywaniu naszej technologii na najwyższym poziomie, a naszej firmy na czele branży elektronicznego handlu.",
+        "banner": {
+          "title": "Dlaczego Rozwijać się w Globalnej Inwestycji",
+          "description": "Nasza unikalna kultura i struktura umożliwiają naszym pracownikom ciągłe przekraczanie granic technologii, aby prowadzić naszą firmę naprzód. Wspieramy naszych pracowników w pracy nad najlepszymi pomysłami i nie pozwalamy biurokracji stanąć na drodze innowacji."
+        }
+      },
+      "business": {
+        "title": "Nasza Działalność",
+        "description": "Przez ponad 40 lat Interactive Brokers był pionierem rewolucji w elektronicznym handlu. Szybko rozwijaliśmy się z małego amerykańskiego twórcy opcji na rynku w dużej globalnej firmie handlowej, wykorzystując moc technologii i automatyzacji.\n\nRozpoznając szansę na świadczenie usług maklerskich o niskich kosztach dla osób indywidualnych i instytucji poszukujących alternatyw dla drogich firm, otworzyliśmy naszą rozległą sieć elektroniczną międzykontynentalną i usługi wykonania transakcji dla klientów. Dziś obsługujemy 2,56 miliona klientów w ponad 200 krajach i terytoriach na całym świecie.\n\nOd samego początku zobowiązaliśmy się do dostarczania wartości poprzez innowacje technologiczne i zapewnianie naszym klientom niezrównanego dostępu do światowych rynków po najniższych kosztach."
+      },
+      "leading": {
+        "title": "Jesteśmy wiodącą",
+        "description": "Nasza firma opiera się na transparentności, zaufaniu i odpowiedzialności wobec naszych klientów. Wierzymy w długoterminowe relacje i zawsze dbamy o to, aby interesy naszych klientów były na pierwszym miejscu.",
+        "items": {
+          "1": {
+            "title": "Atrakcyjne wynagrodzenie z dotacjami na akcje firmy",
+            "description": "Pracownicy korzystają z konkurencyjnych wynagrodzeń wraz z premiami uznaniowymi, które mogą obejmować przyznawanie akcji firmy."
+          },
+          "2": {
+            "title": "Atrakcyjne wynagrodzenie z dotacjami na akcje firmy",
+            "description": "Pracownicy korzystają z konkurencyjnych wynagrodzeń wraz z premiami uznaniowymi, które mogą obejmować przyznawanie akcji firmy."
+          },
+          "3": {
+            "title": "Atrakcyjne wynagrodzenie z dotacjami na akcje firmy",
+            "description": "Pracownicy korzystają z konkurencyjnych wynagrodzeń wraz z premiami uznaniowymi, które mogą obejmować przyznawanie akcji firmy."
+          }
+        }
+      },
+      "advantages": {
+        "description": "Nasza firma to innowacyjne środowisko z inspirującym zespołem i ekscytującymi projektami, w którym możesz rozwijać się i uczestniczyć w projektach społecznych."
+      },
+      "statistic": {
+        "equitycapital": {
+          "description": "Kapitał własny"
+        },
+        "accounts": {
+          "description": "Liczba kont klientów"
+        },
+        "growth": {
+          "description": "Roczny wzrost kont"
+        },
+        "employees": {
+          "description": "Liczba pracowników"
+        },
+        "symbol": {
+          "description": "Symbol giełdowy na NASDAQ"
+        },
+        "offices": {
+          "description": "Biura na całym świecie"
+        }
+      },
+      "faqs": {
+        "title": "FAQs: Dołącz do Naszego Zespołu",
+        "description": "Rozumiemy, że dołączenie do nowego zespołu może rodzić wiele pytań. Zebraliśmy odpowiedzi na niektóre z najczęstszych pytań dotyczących dołączenia do naszej firmy.",
+        "items": [
+          {
+            "name": "Jakie korzyści oferuje nasza firma nowym pracownikom?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          },
+          {
+            "name": "Jakie są główne wartości naszej firmy?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          },
+          {
+            "name": "Jakie są perspektywy rozwoju kariery w naszej firmie?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          },
+          {
+            "name": "Jakie wydarzenia społeczne organizuje nasza firma?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          },
+          {
+            "name": "Czy możliwa jest praca zdalna?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          },
+          {
+            "name": "Jakie są możliwości rozwoju w firmie?",
+            "answer":
+              "Oferujemy wiele możliwości rozwoju zawodowego i awansu, pomagając pracownikom osiągnąć swoje cele zawodowe w naszej firmie."
+          }
+        ]
+      }
+    },
+    "registration-address": {
+      "title": "Odkryj oficjalny adres rejestracji\nnaszej firmy",
+      "subtitle": "Adres Rejestracyjny Firmy",
+      "about": {
+        "title": "O Firmie",
+        "description": "Global Investment to strona internetowa Global Investment Ltd., z numerem rejestracyjnym 25770BC2020, i z zarejestrowanym adresem na Victoria Park Road, Kingstown, St. Vincent & Grenadines, Kingstown P.O. Box 4457.",
+        "risk-arning": {
+          "title": "Ostrzeżenie o Ryzyku",
+          "description": "Inwestowanie na rynku finansowym i w produktach z dźwignią finansową wiąże się z ryzykiem, które może nie być odpowiednie dla wszystkich inwestorów. Nie ryzykuj więcej, niż jesteś gotowy stracić. Przed rozpoczęciem handlu z nami, upewnij się, że rozumiesz związane z tym ryzyka, biorąc pod uwagę swój poziom doświadczenia. W razie potrzeby zasięgnij niezależnej porady. Global Investment nie oferuje swoich usług mieszkańcom i/lub obywatelom niektórych jurysdykcji, takich jak USA, Iran, Syria i Korea Północna. To Twoja własna odpowiedzialność jako naszego klienta, aby działać zgodnie z przepisami swojej jurysdykcji i upewnić się, że wymieniona działalność jest dozwolona w Twoim kraju. Firma nie będzie odpowiedzialna, jeśli Twoja jurysdykcja nie będzie zgodna z oferowaną działalnością."
+        }
+      }
+    },
+    "contacts": {
+      "title": "Kontakty",
+      "description": "Nasze wsparcie dla klienta jest dostępne od poniedziałku do piątku w godzinach 10:00-21:00"
+    },
+    "account-types": {
+      "metadata": {
+        "title": "Typy Kont | Globalne Inwestycje"
+      },
+      "header": {
+        "title": "Odkryj dostosowane typy kont, które odpowiadają Twoim preferencjom inwestycyjnym",
+        "subtitle": "Typy Kont"
+      },
+      "table": {
+        "headers": {
+          "bronze": "Brązowy",
+          "silver": "Srebrny",
+          "gold": "Złoty",
+          "diamond": "Diamentowy",
+          "platinum": "Platynowy",
+          "crystal": "Kryształowy",
+          "exclusive": "Ekskluzywny Klub Milionerów"
+        }
+      }
+    },
+    "news": {
+      "metadata": {
+        "title": "Aktualności Global Investment | Global Investment"
+      },
+      "header": {
+        "title": "Aktualności Global Investment: Twoja brama do wglądu w branżę i sukces",
+        "subtitle": "Aktualności Global Investment"
+      },
+      "categories": {
+        "all": "Wszystkie",
+        "business": "Biznes",
+        "trends": "Trendy",
+        "insights": "Wnioski",
+        "shares": "Udziały"
+      }
+    },
+    "news-item": {
+      "metadata": {
+        "title": "Global Investment News | Global Investment"
+      },
+      "read_also": "Czytaj również"
+    },
+    "login": {
+      "metadata": {
+        "title": "Zaloguj się | Globalne Inwestycje"
+      },
+      "title": "Zaloguj się",
+      "forgot": "Zapomniałeś hasła?",
+      "action": "Zaloguj się",
+      "other": {
+        "description": "Nie masz jeszcze konta?",
+        "link": "Zarejestruj się"
+      }
+    },
+    "singup": {
+      "metadata": {
+        "title": "Zarejestruj się | Globalne Inwestycje"
+      },
+      "title": "Zarejestruj się",
+      "forgot": "Zapomniałeś hasła?",
+      "action": "Utwórz konto",
+      "other": {
+        "description": "Masz już konto?",
+        "link": "Zaloguj się"
+      }
+    },
+    "forgot": {
+      "metadata": {
+        "title": "Zapomniałeś hasła | Globalne Inwestycje"
+      },
+      "title": "Zapomniałeś hasła",
+      "description": "Wprowadź adres e-mail, który użyłeś podczas rejestracji, aby otrzymać instrukcje i zresetować swoje hasło.",
+      "action": "Wyślij",
+      "other": {
+        "description": "Masz już konto?",
+        "link": "Zaloguj się"
+      }
+    }
+  }
+}

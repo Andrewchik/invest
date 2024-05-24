@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+
+  background-color: rgb(255, 249, 230);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 663px;
+}
+
+.title {
+  margin-bottom: 16px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: rgb(var(--foreground-second-rgb));
+
+  transition: all var(--transition);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  span {
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,44 @@
+.description {
+  max-width: 700px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &:where([data-reverse="true"]) {
+    flex-direction: row-reverse;
+
+    .item {
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+  }
+
+  &:where([data-reverse="false"]) {
+    .item {
+      &:last-child {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+.item {
+  max-width: 255px;
+  min-height: 255px;
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}

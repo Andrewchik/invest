@@ -1,0 +1,113 @@
+.container {
+  --button-color: var(--foreground-second-rgb);
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  min-width: 120px;
+  padding: 0px 16px;
+
+  background-color: transparent;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: capitalize;
+
+  transition: var(--transition);
+  cursor: pointer;
+  z-index: 1;
+
+  // Theme
+
+  &:where([data-theme="base"]) {
+    color: rgb(var(--foreground-invert-rgb));
+
+    .background {
+      background-color: rgb(var(--foreground-second-rgb));
+    }
+  }
+
+  &:where([data-theme="transparent"]) {
+    background-color: transparent;
+    color: rgb(var(--foreground-second-rgb));
+  }
+
+  &:where([data-theme="outline"]) {
+    background-color: transparent;
+    border: 1px solid rgb(var(--button-color));
+
+    color: rgb(var(--button-color));
+  }
+
+  // Size
+
+  &:where([data-size="large"]) {
+    min-height: 60px;
+    min-width: 220px;
+  }
+
+  // Animation
+
+  &:where([data-animation="base"]) {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &:where([data-animation="scale"]) {
+    &:hover {
+      .background {
+        transform: scaleX(1.05) scaleY(1.05) perspective(1px);
+      }
+    }
+
+    .background {
+      transform: scaleX(1) scaleY(1) perspective(1px);
+      transition: transform 0.2s cubic-bezier(0.345, 0.115, 0.135, 1.42),
+        background 0.2s ease-out;
+    }
+  }
+
+  // &::after {
+  // transform: scaleX(1) scaleY(1) perspective(1px);
+  // transition: transform 0.2s cubic-bezier(0.345, 0.115, 0.135, 1.42),
+  //   background 0.2s ease-out;
+  // }
+
+  // &:hover::after {
+  //   transform: scaleX(1.05) scaleY(1.05) perspective(1px);
+  // }
+}
+
+.background {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  border-radius: inherit;
+
+  transition: all var(--transition);
+
+  z-index: -1;
+}
+
+.left {
+  margin-right: 24px;
+}
+
+.right {
+  margin-left: 24px;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    &:where([data-size="large"]) {
+      min-height: 48px;
+    }
+  }
+}

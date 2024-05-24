@@ -1,0 +1,40 @@
+.container {
+  @extend .common-section;
+
+  display: flex;
+  margin-top: 100px;
+}
+
+.info {
+  max-width: 318px;
+  width: 100%;
+  margin-right: 140px;
+}
+
+.form {
+  flex: 1;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.description {
+  margin-top: 16px;
+
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}
+
+.address {
+  margin-top: 50px;
+}
+
+.checkbox {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}

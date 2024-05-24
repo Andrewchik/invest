@@ -1,0 +1,129 @@
+.container {
+  position: relative;
+  flex: 1;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.image {
+  position: relative;
+  flex: 1;
+
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.body {
+  @extend .common-section;
+
+  flex: 1.1;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 530px;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.description {
+  margin-top: 16px;
+  max-width: 420px;
+
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}
+
+@media (min-width: $breakpoint-extra-large-min) {
+  .body {
+    margin-right: calc((100vw - $breakpoint-extra-large-min) / 2);
+  }
+}
+
+@media (min-width: $breakpoint-large-min) and (max-width: $breakpoint-extra-large-max) {
+  .body {
+    margin-right: calc((100vw - $breakpoint-large-min) / 2);
+  }
+}
+
+@media (min-width: $breakpoint-medium-min) and (max-width: $breakpoint-large-max) {
+  .body {
+    flex: 1.6;
+    margin-right: calc((100vw - $breakpoint-medium-min) / 2);
+  }
+}
+
+@media (max-width: $breakpoint-medium-max) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    flex: none;
+    height: 300px;
+  }
+
+  .body {
+    width: 100%;
+
+    flex: none;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .image {
+    height: 200px;
+  }
+
+  .body {
+    padding: 20px 0px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+  }
+
+  .description {
+    margin-top: 20px;
+
+    font-size: 14px;
+  }
+}

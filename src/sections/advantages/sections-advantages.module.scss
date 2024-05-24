@@ -1,0 +1,14 @@
+.container {
+  @extend .common-section;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 39px;
+  grid-row-gap: 12px;
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

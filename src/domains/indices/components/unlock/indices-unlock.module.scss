@@ -1,0 +1,33 @@
+.container {
+  align-items: flex-end;
+}
+
+.image {
+  @extend .section-second-image;
+
+  max-width: 430px;
+  max-height: 448px;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: $breakpoint-medium-min) {
+  .container .content {
+    max-width: 530px;
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: $breakpoint-medium-max) {
+  .image {
+    max-width: calc(430px * 0.7);
+    max-height: calc(448px * 0.7);
+  }
+}
+
+@media (max-width: $breakpoint-small-max) {
+  .image {
+    max-width: 190px;
+    max-height: 198px;
+  }
+}

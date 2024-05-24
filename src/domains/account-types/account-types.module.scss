@@ -1,0 +1,7 @@
+.header__title {
+  max-width: 890px;
+}
+
+.container .section {
+  @extend .section-offset;
+}

@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "title": "Global Investment",
+    "description": "Global Investment"
+  },
+  "root": {
+    "agree": "I agree with <privacyPolicy>Privacy Policy</privacyPolicy> and <termsConditions>Terms & Conditions</termsConditions>",
+    "send": "Send",
+    "load_more": "Load more",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "account": "Account number or Email",
+      "password": "Password",
+      "confirm_password": "Confirm password",
+      "country": "Country"
+    },
+    "pages": {
+      "about_us": "About us",
+      "careers": "Careers",
+      "home": "Home",
+      "news": "News",
+      "contacts": "Contacts",
+      "privacy_policy": "Privacy Policy",
+      "terms_conditions": "Terms & Conditions"
+    }
+  },
+  "cards": {
+    "news": {
+      "trends": "Trends",
+      "to_read": "{minutes, plural, =1 {one minute} other {# minutes}} to read"
+    }
+  },
+  "layouts": {
+    "root": {
+      "topline": {
+        "login": "Log in",
+        "loguot": "Log out"
+      },
+      "header": {
+        "menu": {
+          "trading": "Trading",
+          "platforms": "Platforms"
+        },
+        "actions": {
+          "sign_up": "Sign Up",
+          "open_account": "Open an account"
+        }
+      },
+      "footer": {
+        "info": {
+          "address": {
+            "label": "Address",
+            "value": "Cannon Bridge House 25\nDowgate Hill London EC4R 2YA"
+          },
+          "email": {
+            "label": "Email"
+          }
+        },
+        "menu": {
+          "trading": {
+            "label": "Trading",
+            "items": {
+              "crypto": "Crypto",
+              "forex": "Forex",
+              "indices": "Indices",
+              "shares": "Shares",
+              "web_trader": "Web Trader"
+            }
+          },
+          "links": {
+            "label": "Useful Links",
+            "items": {
+              "terms_conditions": "Terms & Conditions",
+              "privacy_policy": "Privacy Policy",
+              "risk_disclosure": "Risk Disclosure",
+              "aml_kyc": "AML & KYC",
+              "order_execution_policy": "Order Execution Policy",
+              "client_categorization": "Client Categorization"
+            }
+          },
+          "company": {
+            "label": "Company",
+            "items": {
+              "about_us": "About us",
+              "careers": "Сareers",
+              "news": "News",
+              "contacts": "Contacts",
+              "account_types": "Account Types",
+              "registration_address": "Company's Registration Address"
+            }
+          }
+        },
+        "bottom-line": {
+          "copyright": "Copyright, Global Investment"
+        }
+      }
+    }
+  },
+  "sections": {
+    "header": {
+      "action": "Start trading now"
+    },
+    "instruments": {
+      "title": "Market Instruments",
+      "description": "Global Investment is your reliable partner in the world of online trading. With 15+ years of experience and innovation, we provide high-quality access to financial markets through our advanced execution model. Discover the world of online trading with Contracts for Difference (CFDs) on thousands of instruments in 6 asset classes. With us, you will have access to a wide range of financial instruments, allowing you to effectively implement your investment strategies and achieve your financial goals.",
+      "menu": {
+        "forex": "Forex",
+        "crypto": "Crypto",
+        "indices": "Indices",
+        "shares": "Shares"
+      }
+    },
+    "trading-table": {
+      "symbol": "Symbol",
+      "digits": "Digits",
+      "contract_size": "Contract Size",
+      "spread": "Avg, Spread, Pips",
+      "swap_long": "SWAP Long",
+      "swap_short": "SWAP Short",
+      "trading_hours": "Trading Hours"
+    }
+  },
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "Home | Global Investment"
+      },
+      "header": {
+        "title": "Trade UK Stocks & Options\n24/7",
+        "subtitle": "Start Trading"
+      },
+      "advantages": {
+        "funding_fee": "Funding Fee",
+        "support": "Support",
+        "micro_lot_trading": "Micro Lot Trading",
+        "fast_order_execution": "Fast order execution"
+      },
+      "platforms": {
+        "title": "Powerful trading platforms for your success",
+        "description": "Discover powerful trading platforms to enhance your success. Whether you're a novice or an experienced trader, these tools offer an intuitive interface, advanced charting, and real-time insights. Customize your experience and use opportunities with confidence. Take your trading journey to the next level today!",
+        "action": "Read more"
+      },
+      "opportunities": {
+        "title": "Discover A World Of Opportunities",
+        "description": "Invest globally in stocks, options, futures, currencies, bonds and funds from a single unified platform. Fund your account in multiple currencies and trade assets denominated in multiple currencies. Access market data 24 hours a day and seven days a week.",
+        "action": "Global markets"
+      },
+      "experience": {
+        "title": "Professional pricing experience",
+        "description": "Get the knowledge and skills you need to develop and implement an effective pricing strategy.",
+        "items": [
+          "Low commissions ranging from 0 to 4 US dollars with no additional spreads, ticket fees, platform fees, or minimum account sizes.",
+          "Global Investment: advanced trading technologies for optimal transaction execution and price value, minimizing market impact.",
+          "Margin rates are 49% lower than industry averages.",
+          "Earn high interest rates of up to 4.83% on instant cash.",
+          "Earn additional income with the shares you lend."
+        ]
+      },
+      "unlocking": {
+        "title": "Unlocking professional trading potential with Global Investment",
+        "description": "Unlock your full trading potential with Global Investment. Benefit from global access, cutting-edge technologies, and unparalleled security measures. With low commissions, high interest rates, and a unified platform for various asset classes, Global Investment empowers you to trade with confidence and efficiency.",
+        "items": {
+          "professional_pricing": {
+            "title": "Professional Pricing",
+            "description": "Commissions starting at $04, low margin rates, high interest paid, and Stock Yield Enhancement."
+          },
+          "global_access": {
+            "title": "Global Access",
+            "description": "Invest globally in stocks, options, futures, currencies, bonds and funds from a single unified platform."
+          },
+          "premier_technology": {
+            "title": "Premier Technology",
+            "description": "Global Investment powerful suite of technology helps you optimize your trading speed and efficiency and perform sophisticated portfolio analysis."
+          },
+          "strength_security": {
+            "title": "Strength & Security",
+            "description": "$14.1 billion in equity capital, automated risk controls, all assets marked to market daily, rated “A- Outlook Stable” by Standard & Poor's."
+          }
+        }
+      },
+      "process": {
+        "title": "Streamlined Trading Process",
+        "description": "Experience effortless trading with our streamlined process. From quick application to seamless account\nfunding, we've simplified every step. Join us and elevate your investment journey today.",
+        "items": {
+          "application": {
+            "title": "Complete the Application",
+            "description": "It only takes a few minutes."
+          },
+          "account": {
+            "title": "Fund Your Account",
+            "description": "Connect your bank or transfer an account."
+          },
+          "get_started": {
+            "title": "Get Started Trading",
+            "description": "Take your investing to the next level."
+          }
+        }
+      },
+      "subscribe": {
+        "title": "Get latest updates",
+        "description": "Keep yourself informed and up-to-date with the most recent news and developments.",
+        "form": {
+          "email": "Enter your email",
+          "action": "Subscribe",
+          "policy": "We will never transfer your data to third parties. For more information, see our Privacy Policy."
+        }
+      }
+    },
+    "forex": {
+      "metadata": {
+        "title": "Forex Trading | Global Investment"
+      },
+      "header": {
+        "title": "Take Advantage Of The\n$5 Trillion A Day Market",
+        "subtitle": "FOREX TRADING"
+      },
+      "embark": {
+        "title": "Start your journey of financial growth with Global Investment",
+        "description": "Dive into the dynamic world of Forex trading and take advantage of the opportunity to capitalize on global currency movements. With our comprehensive platform, you'll gain access to a plethora of trading tools and resources, empowering you to make informed decisions and maximize potential profits. Whether you're an experienced trader or just starting out, our platform provides the support and guidance necessary for success in the Forex market. Join us today and take the first step towards financial independence."
+      },
+      "unlocking": {
+        "title": "Unlock the potential of Forex trading",
+        "description": "Trade confidently and accurately on the Forex market. Our platform provides you with the tools and insights necessary to capitalize on opportunities and maximize profits in the dynamic currency market. Start trading today and unlock your potential for financial growth."
+      },
+      "advantages": {
+        "flexibility": {
+          "title": "Trading Flexibility",
+          "description": "Our platform allows you to trade in the Forex market from anywhere in the world, simply by using Internet access."
+        },
+        "commissions": {
+          "title": "Low Commissions",
+          "description": "We offer competitive trading conditions with low commissions, allowing you to maximize your profits."
+        },
+        "protection": {
+          "title": "Protection And Security",
+          "description": "We ensure a high level of security for your capital so that you can trade in the Forex market with confidence."
+        }
+      },
+      "trade": {
+        "title": "Trade Forex",
+        "subtitle": "Trade the biggest market with the most volatile currency pairs. Choose Global Investment to access the biggest market in the world, Forex on major, minor & exotic currency pairs."
+      }
+    },
+    "crypto": {
+      "metadata": {
+        "title": "Crypto Trading | Global Investment"
+      },
+      "header": {
+        "title": "The Future of Investment is\nHere and Now",
+        "subtitle": "Crypto trading"
+      },
+      "empower": {
+        "title": "Empower Your Finances: Simple Crypto Trading Tool",
+        "description": "Embark on a journey of financial empowerment with our simplified crypto trading platform. We understand that delving into the world of cryptocurrencies can seem daunting, which is why we've streamlined the process to make it accessible to everyone.\n\nOur intuitively understandable interface guides you through every step of the trading journey, from creating an account to executing your first trade. With just a few clicks, you can buy, sell, and exchange a wide range of cryptocurrencies, all conveniently from the comfort of your own home."
+      },
+      "gateway": {
+        "title": "Your open path to financial evolution",
+        "description": "Step into the future of finance with our comprehensive crypto platform. Whether you're an experienced trader or a newcomer to the world of digital assets, our platform offers the tools, resources, and support you need to navigate the dynamic world of cryptocurrencies with confidence.\n\nFrom Bitcoin to Ethereum and beyond, explore the diversity of cryptocurrencies and blockchain projects, each with its own potential for growth and innovation. With our intuitive interface and advanced trading features, you can buy, sell, and trade crypto assets with ease, allowing you to leverage opportunities and maximize your income in this rapidly changing market."
+      },
+      "advantages": {
+        "support": {
+          "title": "Customer Support",
+          "description": "Our dedicated customer support team is available around the clock to assist you with any queries or technical issues you may encounter."
+        },
+        "access": {
+          "title": "24/7 Market Access",
+          "description": "With crypto markets operating around the clock, you can trade anytime, anywhere, allowing for greater flexibility in managing your investments."
+        },
+        "transactions": {
+          "title": "Instant Transactions",
+          "description": "Enjoy fast and seamless transactions, with trades executed almost instantly, enabling you to capitalize on market opportunities swiftly."
+        }
+      },
+      "trade": {
+        "title": "Cryptocurrency Trading",
+        "description": "Join the global cryptocurrency market worth billions of dollars, which is revolutionizing the financial sphere. Trade the most active and popular cryptocurrencies such as Bitcoin, Ethereum, and Litecoin on the Global Investment platform."
+      }
+    },
+    "indices": {
+      "metadata": {
+        "title": "Indices Trade Page | Global Investment"
+      },
+      "header": {
+        "title": "The world's biggest brands\nready for your exploration",
+        "subtitle": "Indices Trade Page"
+      },
+      "unlock": {
+        "title": "Unlock diverse investment opportunities: Choose Index Trading",
+        "description": "Discover the power of index trading, where you can access a wide range of diverse investment opportunities on one convenient platform. Whether you want to track major market indicators like the S&P 500 or study international indices, our platform provides the tools and resources you need to make informed investment decisions. With index trading, you can benefit from reduced risk and capitalize on broader market trends while enjoying the simplicity and convenience of trading through our user-friendly interface."
+      },
+      "investments": {
+        "title": "Maximize Your Investments: Explore Indices Trading",
+        "description": "Expand your portfolio effortlessly with indices trading. Gain access to major market benchmarks and international indices on our platform. Benefit from risk reduction and the ability to capitalize on market trends to easily ensure profit. Join us today to enhance your investment strategy.",
+        "items": {
+          "markets": {
+            "title": "Access To Markets",
+            "description": "Trade popular indices like the S&P 500 and Dow Jones Industrial Average."
+          },
+          "exposure": {
+            "title": "Global Exposure",
+            "description": "Explore international markets through indices such as the FTSE 100 and Nikkei 225."
+          },
+          "resources": {
+            "title": "Resources",
+            "description": "Access resources to deepen your understanding of indices trading and market dynamics."
+          },
+          "access": {
+            "title": "Ease Of Access",
+            "description": "Trade indices easily on our user-friendly platform, accessible anytime, anywhere."
+          }
+        }
+      },
+      "trade": {
+        "title": "Indices Trading",
+        "description": "Trade based on the price of the sum of a collective group of exchanges through each index. Choose Global Investment to trade the largest indices containing global stocks with a regulated and secure broker."
+      }
+    },
+    "shares": {
+      "metadata": {
+        "title": "Shares Page | Global Investment"
+      },
+      "header": {
+        "title": "The world's biggest brands are\njust a click away",
+        "subtitle": "Shares Page"
+      },
+      "invest": {
+        "title": "Invest in stocks: Navigate the stock market with confidence",
+        "description": "Get access to the world of investment opportunities through stock trading. With our platform, you can invest in various companies - from recognized market leaders to promising startups. Use market trends, manage risks effectively, and build a portfolio that meets your financial goals. Start your journey to financial growth and stability by trading stocks with us today."
+      },
+      "trade_shares": {
+        "title": "Trade shares: Utilize investment opportunities",
+        "description": "Dive into the world of share trading and utilize investment opportunities like never before. Our platform offers seamless access to a wide range of shares, allowing you to capitalize on market movements and develop your portfolio with confidence. Join us today to start trading shares and take control of your financial future."
+      },
+      "advantages": {
+        "flexibility": {
+          "title": "Flexibility",
+          "description": "Trade popular indices like the S&P 500 and Dow Jones Industrial Average."
+        },
+        "insights": {
+          "title": "Flexibility",
+          "description": "Trade popular indices like the S&P 500 and Dow Jones Industrial Average."
+        },
+        "potential": {
+          "title": "Potential For Growth",
+          "description": "Invest in companies with strong growth potential, offering the opportunity to generate substantial returns over time."
+        }
+      },
+      "trade": {
+        "title": "Shares Trading",
+        "description": "Trade the biggest market with the most volatile currency pairs. Choose Global Investment to access the world's largest market - Forex with major, minor, and exotic currency pairs."
+      }
+    },
+    "web-trader": {
+      "metadata": {
+        "title": "Web Trader | Global Investment"
+      },
+      "header": {
+        "title": "Easily explore various investment opportunities with Global Investment",
+        "subtitle": "Web Trader"
+      },
+      "access": {
+        "title": "Gain access to global financial markets!",
+        "description": "Using web trading allows you to trade from any browser or operating system without additional software or download issues. Web trading offers the same user experience as any other platform but can be accessed from anywhere with an internet connection."
+      },
+      "use": {
+        "title": "Why Use Web Trading?",
+        "description": "Web trading simplifies the trading process with its secure and convenient platform accessible from any web browser. Benefit from real-time data and convenient tools, whether you're an experienced trader or just starting your journey.",
+        "items": {
+          "access": {
+            "title": "Instant Access",
+            "description": "Get instant access to the financial markets with the convenient Web Trader platform."
+          },
+          "trading": {
+            "title": "One-Click Trading",
+            "description": "Streamline trading with one-click functionality on Web Trader for instant market execution."
+          },
+          "secure": {
+            "title": "Secure, Reliable Data",
+            "description": "Web Trader guarantees secure, reliable data for confident and efficient trading experiences."
+          },
+          "charts": {
+            "title": "Advanced Charts",
+            "description": "Utilize our advanced charts for comprehensive market analysis and informed decision-making."
+          }
+        }
+      },
+      "start": {
+        "title": "Start in few simple steps",
+        "description": "Trade CFDs on a wide range of instruments, including popular FX pairs, Futures, Indices, Metals, Energies and Shares and experience the global markets at your fingertips.",
+        "action": "Start trading now"
+      }
+    },
+    "about-us": {
+      "metadata": {
+        "title": "About Us | Global Investment"
+      },
+      "header": {
+        "title": "We are a leading investment & financial advisory firm helping clients around the world maximize their capital growth opportunities",
+        "subtitle": "About Us",
+        "description": "Our company is based on transparency, trust and responsibility to our customers. We believe in long-term relationships and always make sure that our clients' interests come first."
+      },
+      "statistic": {
+        "users": {
+          "description": "Users engaged worldwide"
+        },
+        "funding": {
+          "description": "In funding"
+        },
+        "team-members": {
+          "description": "Talented team members"
+        },
+        "partnerships": {
+          "description": "Strategic partnerships"
+        },
+        "customer": {
+          "description": "Customer satisfaction rate"
+        },
+        "market-value": {
+          "description": "Projected market value"
+        }
+      },
+      "investments": {
+        "title": "Global Investment:\nShaping Financial Futures",
+        "description": "Global Investment leads the charge in financial empowerment, offering personalized solutions for a secure future. With a dedicated team of over 100 experts, we tailor strategies to meet individual needs, ensuring solid returns and long-term prosperity.\n\nOur transparent approach and proven track record have earned us trust worldwide. From individuals to institutions, we manage diverse portfolios across continents, providing access to a wide array of investment opportunities."
+      },
+      "leading": {
+        "title": "We are a leading",
+        "description": "Our company is based on transparency, trust and responsibility to our customers. We believe in long-term relationships and always make sure that our clients' interests come first.",
+        "items": {
+          "expertise": {
+            "title": "Expertise",
+            "description": "Our team consists of experienced professionals from various finance sectors, ready to provide you with professional advice."
+          },
+          "transparency": {
+            "title": "Transparency",
+            "description": "We strive to maintain open and transparent relationships with our clients, providing them with information about each stage of investment."
+          }
+        }
+      },
+      "team": {
+        "title": "Meet Our Team at Global Investment",
+        "description": "Our success is due to the dedication and experience of our team. Allow me to introduce you to the talented people of our company."
+      }
+    },
+    "careers": {
+      "metadata": {
+        "title": "Careers | Global Investment"
+      },
+      "header": {
+        "title": "Explore rewarding career opportunities with us",
+        "subtitle": "Careers"
+      },
+      "innovators": {
+        "title": "Innovators Wanted",
+        "description": "We are looking for people who see opportunity where others see the status quo. At Interactive Brokers, every one of our exceptional and dedicated employees plays a role in keeping our technology on the cutting-edge, and our company at the forefront of the electronic trading industry.",
+        "banner": {
+          "title": "Why Develop at Global Investment",
+          "description": "Our unique culture and structure enable our employees to continue to push the boundaries of technology to drive our business forward. We empower our employees to work on the best ideas and we don't let bureaucracy get in the way of innovation."
+        }
+      },
+      "business": {
+        "title": "Our Business",
+        "description": "For over 40 years, Interactive Brokers has been the pioneer of the electronic trading revolution. We rapidly scaled from a small U.S. options market-maker into a sizable global trading firm by leveraging the power of technology and automation.\n\nRecognizing an opportunity to provide low-cost brokerage services to individuals and institutions seeking alternatives to high-priced firms, we opened our vast intercontinental electronic network and trade execution services to clients. Today, we serve 2.56M clients in over 200 countries and territories worldwide.\n\nSince inception, we have been committed to delivering value through technological innovation, and providing our clients with unprecedented access to global markets at the lowest cost."
+      },
+      "leading": {
+        "title": "We are a leading",
+        "description": "Our company is based on transparency, trust and responsibility to our customers. We believe in long-term relationships and always make sure that our clients' interests come first.",
+        "items": {
+          "1": {
+            "title": "Attractive reward with subsidies on company shares",
+            "description": "Employees enjoy competitive salaries along with discretionary bonuses, which may include grants of company stock."
+          },
+          "2": {
+            "title": "Attractive reward with subsidies on company shares",
+            "description": "Employees enjoy competitive salaries along with discretionary bonuses, which may include grants of company stock."
+          },
+          "3": {
+            "title": "Attractive reward with subsidies on company shares",
+            "description": "Employees enjoy competitive salaries along with discretionary bonuses, which may include grants of company stock."
+          }
+        }
+      },
+      "advantages": {
+        "description": "Our company is an innovative environment with an inspiring team and exciting projects, where you can develop and participate in social projects."
+      },
+      "statistic": {
+        "equitycapital": {
+          "description": "Equitycapital"
+        },
+        "accounts": {
+          "description": "Number of client accounts"
+        },
+        "growth": {
+          "description": "Yearly growth in accounts"
+        },
+        "employees": {
+          "description": "Number of employees"
+        },
+        "symbol": {
+          "description": "Ticker symbol on nasdaq"
+        },
+        "offices": {
+          "description": "Global offices"
+        }
+      },
+      "faqs": {
+        "title": "FAQs: Joining Our Team",
+        "description": "We understand that joining a new team can raise many questions. We have collected answers to some of the most common questions about joining our company.",
+        "items": [
+          {
+            "name": "What benefits does our company offer to new employees?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          },
+          {
+            "name": "What are the core values of our company?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          },
+          {
+            "name": "What are the prospects for career growth in our company?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          },
+          {
+            "name": "What social events does our company organize?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          },
+          {
+            "name": "Is it possible to work remotely?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          },
+          {
+            "name": "What are the opportunities for growth in the company?",
+            "answer":
+              "We provide ample opportunities for career development and advancement, helping employees achieve their career goals in our company."
+          }
+        ]
+      }
+    },
+    "registration-address": {
+      "title": "Discover the official registration\naddress of our company",
+      "subtitle": "Company's Registration Address",
+      "about": {
+        "title": "About the Company",
+        "description": "Global Investment is the operating website of Global Investment Ltd., with registration number 25770BC2020, and with registered address at Victoria Park Road, Kingstown, St. Vincent & Grenadines, Kingstown P.O. Box 4457.",
+        "risk-arning": {
+          "title": "Risk Warning",
+          "description": "Investing in the financial market and in leveraged products is connected with risks which may not be suitable for all investors. Do not risk more than you are prepared to lose. Before trading with us, please ensure that you understand the risks involved while considering your level of experience. Seek independent advice if necessary. Global Investment does not offer its services to residents and/or citizens of certain jurisdictions such as USA, Iran, Syria and North Korea. It is your own responsibility as our client to act according to your jurisdiction and to make sure that the said activity is allowed in your country. The company will not be responsible in case your jurisdiction does not comply with the offered activity."
+        }
+      }
+    },
+    "contacts": {
+      "title": "Contacts",
+      "description": "Our customer support isavailable Monday-Friday from 10:00-21:00"
+    },
+    "account-types": {
+      "metadata": {
+        "title": "Account Types | Global Investment"
+      },
+      "header": {
+        "title": "Discover customized account types to suit your investment preferences",
+        "subtitle": "Account Types"
+      },
+      "table": {
+        "headers": {
+          "bronze": "Bronze",
+          "silver": "Silver",
+          "gold": "Gold",
+          "diamond": "Diamond",
+          "platinum": "Platinum",
+          "crystal": "Crystal",
+          "exclusive": "Exclusive Millionaires Club"
+        }
+      }
+    },
+    "news": {
+      "metadata": {
+        "title": "Global Investment News | Global Investment"
+      },
+      "header": {
+        "title": "Global Investment News: Your Gateway to Industry Insight and Success",
+        "subtitle": "Global Investment News"
+      },
+      "categories": {
+        "all": "All",
+        "business": "Business",
+        "trends": "Trends",
+        "insights": "Insights",
+        "shares": "Shares"
+      }
+    },
+    "news-item": {
+      "metadata": {
+        "title": "Global Investment News | Global Investment"
+      },
+      "read_also": "Read Also"
+    },
+    "login": {
+      "metadata": {
+        "title": "Log in | Global Investment"
+      },
+      "title": "Log in",
+      "forgot": "Forgot password?",
+      "action": "Sing in",
+      "other": {
+        "description": "Don't have an account?",
+        "link": "Sing up"
+      }
+    },
+    "singup": {
+      "metadata": {
+        "title": "Sing up | Global Investment"
+      },
+      "title": "Sing up",
+      "forgot": "Forgot password?",
+      "action": "Create account",
+      "other": {
+        "description": "Already have an account?",
+        "link": "Log in"
+      }
+    },
+    "forgot": {
+      "metadata": {
+        "title": "Forgot password | Global Investment"
+      },
+      "title": "Forgot password",
+      "description": "Enter the email address you used when you joined to get instructions and reset your password.",
+      "action": "Send",
+      "other": {
+        "description": "Already have an account?",
+        "link": "Log in"
+      }
+    }
+  }
+}

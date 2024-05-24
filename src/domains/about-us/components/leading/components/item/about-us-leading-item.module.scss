@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+
+  border: 1px solid rgb(var(--border-rgb));
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+
+.number {
+  margin-right: 12px;
+  color: rgb(var(--foreground-second-rgb));
+}
+
+.description {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+}

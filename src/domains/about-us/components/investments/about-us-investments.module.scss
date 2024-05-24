@@ -1,0 +1,32 @@
+.container {
+  align-items: center;
+}
+
+.container .content {
+  max-width: 530px;
+}
+
+.container .info {
+  max-width: 530px;
+}
+
+.images {
+  display: flex;
+}
+
+.image {
+  width: 211px;
+  height: 284px;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 32px;
+  margin-top: 50px;
+}

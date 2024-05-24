@@ -1,0 +1,29 @@
+.header__description {
+  max-width: 530px;
+
+  font-size: 18px;
+}
+
+.form {
+  max-width: 386px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.input {
+  margin-bottom: 24px;
+}
+
+.action {
+  width: 100%;
+}
+
+.policy {
+  margin-top: 24px;
+
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(var(--foreground-third-rgb));
+  white-space: pre-wrap;
+}
