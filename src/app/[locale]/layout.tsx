@@ -1,8 +1,9 @@
 import { unstable_setRequestLocale, getTranslations } from "next-intl/server";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { SessionProvider } from "next-auth/react";
-import toast, { Toaster } from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import Script from "next/script";
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 import { locales } from "@/navigation";
 
@@ -29,29 +30,30 @@ export default function RootLayout({ children, params }: RootLayoutParams) {
   return (
     <html lang={params.locale}>
       <AOSInit />
-
       <body className={DMSans.className}>
-        <SessionProvider
-          basePath="/api/auth"
-          refetchOnWindowFocus={true}
-          refetchInterval={5 * 60}
-        >
-          <NextIntlClientProvider locale={params.locale} messages={messages}>
-            {children}
+        <AppRouterCacheProvider>
+          <SessionProvider
+            basePath="/api/auth"
+            refetchOnWindowFocus={true}
+            refetchInterval={5 * 60}
+          >
+            <NextIntlClientProvider locale={params.locale} messages={messages}>
+              {children}
 
-            <Toaster />
-          </NextIntlClientProvider>
-        </SessionProvider>
+              <Toaster />
+            </NextIntlClientProvider>
+          </SessionProvider>
 
-        <Script
-          src="/static/datafeeds/udf/dist/bundle.js"
-          strategy="lazyOnload"
+          <Script
+            src="/static/datafeeds/udf/dist/bundle.js"
+            strategy="lazyOnload"
           // onReady={() => {
           //   console.log("onReady");
 
           //   // setIsScriptReady(true);
           // }}
-        />
+          />
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
