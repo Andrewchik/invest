@@ -44,7 +44,7 @@ const TVChart = (props: Partial<ChartingLibraryWidgetOptions>) => {
       autosize: props.autosize,
       theme: "light",
       timezone: "Europe/Warsaw",
-      // debug: true,
+      debug: true,
     };
 
     const tvWidget = new widget(widgetOptions);

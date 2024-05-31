@@ -10,7 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@hookform/resolvers": "^3.3.4",
+    "@mui/base": "^5.0.0-beta.40",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/system": "^5.15.15",
     "@studio-freight/react-lenis": "^0.0.46",
     "@tanstack/react-table": "^8.15.3",
     "aos": "^2.3.4",

@@ -1,20 +1,13 @@
 "use client";
 
 import { useState } from "react";
-
 import dynamic from "next/dynamic";
 import Script from "next/script";
-
 import { TradingAside, TradingInfo } from "./components";
-
 import classes from "./trading.module.scss";
-
 import { useClassName } from "@/hooks/use-class-name.hook";
-
-import {
-  ChartingLibraryWidgetOptions,
-  ResolutionString,
-} from "../../../public/static/charting_library/charting_library";
+import { ChartingLibraryWidgetOptions, ResolutionString } from "../../../public/static/charting_library/charting_library";
+import { OrderBlock } from "./components/order-block/order-block";
 
 const defaultWidgetProps: Partial<ChartingLibraryWidgetOptions> = {
   symbol: "AAPL",
@@ -40,6 +33,7 @@ export interface TradingProps {
 
 const Trading = (props: TradingProps) => {
   const [isScriptReady, setIsScriptReady] = useState(false);
+  const [activeTab, setActiveTab] = useState("Market");
 
   const _className = useClassName(props.className, classes.container);
 
@@ -58,17 +52,16 @@ const Trading = (props: TradingProps) => {
               setIsScriptReady(true);
             }}
           />
-          {isScriptReady && <TVChart {...defaultWidgetProps} />}
+          {isScriptReady && (
+            <>
+              <div className={classes.tvChart}>
+                <TVChart {...defaultWidgetProps} />
+                {/* <p>Open Positions</p> */}
+              </div>
+              <OrderBlock activeTab={activeTab} setActiveTab={setActiveTab} />
+            </>
+          )}
         </div>
-
-        {/* <Image
-          className={classes.image}
-          src="/images/trading/test.svg"
-          width={1336}
-          height={820}
-          priority={true}
-          alt="backgound image"
-        /> */}
       </div>
     </div>
   );
