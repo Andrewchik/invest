@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./order-block.module.scss";
 import QuantityInput from "./components/NumberInput/NumberInput";
 import QuantityInputForLimit from "./components/NumberInputForLimit/NumberInputForLimit";
